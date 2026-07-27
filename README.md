@@ -1,156 +1,118 @@
 # Software Testing Handbook
 
-> A practical handbook of software testing concepts, principles, and best practices developed during my QA Engineering internship.
+> Concise revision notes based on the ISTQB® Certified Tester Foundation Level syllabus.
 
-![Status](https://img.shields.io/badge/Status-In%20Progress-orange)
-![Language](https://img.shields.io/badge/Markdown-Documentation-blue)
-![Focus](https://img.shields.io/badge/Software-Testing-green)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Format](https://img.shields.io/badge/Format-Markdown-blue)
+![Focus](https://img.shields.io/badge/Focus-Software%20Testing-green)
 
 ---
 
 ## About
 
-This repository documents my learning journey in software testing and quality assurance during my QA Engineering internship at Systems Ltd.
+This repository contains my concise revision notes from the ISTQB® Certified Tester Foundation Level syllabus, prepared during my QA Engineering internship at Systems Ltd.
 
-The content is primarily based on the ISTQB® Certified Tester Foundation Level (CTFL) syllabus (v4.0.1), but has been rewritten in my own words with additional explanations, practical examples, interview questions, and real-world scenarios to reinforce my understanding.
+The notes summarise the main software testing concepts in simple language and are designed for quick revision. They focus on understanding the key ideas rather than reproducing the complete syllabus.
 
-The aim of this repository is not to replace the official syllabus, but to serve as a structured knowledge base and revision guide while developing practical software testing skills. :contentReference[oaicite:0]{index=0}
+This repository does not represent an official ISTQB certification or replace the official learning material.
 
 ---
 
-## Repository Structure
+## Contents
 
-```
-software-testing-handbook
-│
-├── README.md
-├── LICENSE
-├── .gitignore
-│
-├── docs/
-│   ├── 01-Fundamentals-of-Testing.md
-│   ├── 02-Testing-Throughout-the-SDLC.md
-│   ├── 03-Static-Testing.md
-│   ├── 04-Test-Analysis-and-Design.md
-│   ├── 05-Managing-Test-Activities.md
-│   ├── 06-Test-Tools.md
-│   ├── Cheat-Sheet.md
-│   ├── Glossary.md
-│   ├── Interview-Questions.md
-│   └── Real-World-Examples.md
-│
-└── images/
-```
+### Chapters
+
+- [Chapter 1: Fundamentals of Testing](docs/01-Fundamentals-of-Testing.md)
+- [Chapter 2: Testing Throughout the SDLC](docs/02-Testing-Throughout-the-SDLC.md)
+- [Chapter 3: Static Testing](docs/03-Static-Testing.md)
+- [Chapter 4: Test Analysis and Design](docs/04-Test-Analysis-and-Design.md)
+- [Chapter 5: Managing Test Activities](docs/05-Managing-Test-Activities.md)
+- [Chapter 6: Test Tools](docs/06-Test-Tools.md)
+
+### Quick Revision
+
+- [Cheat Sheet](docs/Cheat-Sheet.md)
+- [Glossary](docs/Glossary.md)
+- [Interview Questions](docs/Interview-Questions.md)
 
 ---
 
 ## Topics Covered
 
-### Fundamentals of Testing
-- Purpose and objectives of testing
-- Testing vs debugging
-- Quality Assurance vs Quality Control
-- Errors, defects and failures
+The repository covers:
+
+- Software testing objectives
+- Testing and debugging
+- Quality Assurance and Quality Control
+- Errors, defects, and failures
 - The seven testing principles
-- Test process and test activities
-- Test roles and responsibilities
-- Testware and traceability
-- Essential skills for software testers
-
-### Testing Throughout the SDLC
-- Software Development Life Cycle
-- Waterfall
-- Agile
-- DevOps
-- Shift Left Testing
-- Test levels
-- Test types
-- Maintenance testing
-- Regression testing
-- Confirmation testing
-
-### Static Testing
-- Static vs dynamic testing
-- Reviews
-- Walkthroughs
-- Technical reviews
-- Inspections
-- Static analysis
-
-### Test Analysis and Design
-- Black-box testing
-- White-box testing
-- Experience-based testing
+- Testing throughout the software development lifecycle
+- Test levels and test types
+- Static and dynamic testing
+- Review types
+- Black-box, white-box, and experience-based techniques
 - Equivalence Partitioning
 - Boundary Value Analysis
 - Decision Table Testing
 - State Transition Testing
-- Statement Coverage
-- Branch Coverage
+- Statement and Branch Testing
 - Exploratory Testing
-- Error Guessing
-
-### Managing Test Activities
-- Test planning
-- Risk management
+- Test planning and risk-based testing
 - Test monitoring and control
-- Test metrics
-- Entry and exit criteria
 - Defect management
-- Configuration management
-- Test reporting
-
-### Test Tools
-- Tool support for testing
-- Test automation
-- Benefits and risks of automation
+- Test metrics
+- Test tools and automation fundamentals
 
 ---
 
-## What You'll Find
+## Repository Structure
 
-Each section includes:
-
-- Clear explanations of key concepts
-- Practical examples
-- Real-world testing scenarios
-- Common interview questions
-- Summary notes
-- Important terminology
-- Best practices for software testing
-
----
-
-## Skills Developed
-
-Through this project, I have developed an understanding of:
-
-- Software Testing Fundamentals
-- Software Quality Assurance
-- Manual Testing Concepts
-- Test Design Techniques
-- Static Testing
-- Test Planning
-- Risk-Based Testing
-- Defect Reporting
-- SDLC and Agile Testing
-- Test Documentation
+```text
+software-testing-handbook/
+│
+├── README.md
+│
+└── docs/
+    ├── 01-Fundamentals-of-Testing.md
+    ├── 02-Testing-Throughout-the-SDLC.md
+    ├── 03-Static-Testing.md
+    ├── 04-Test-Analysis-and-Design.md
+    ├── 05-Managing-Test-Activities.md
+    ├── 06-Test-Tools.md
+    ├── Cheat-Sheet.md
+    ├── Glossary.md
+    └── Interview-Questions.md
+```
 
 ---
 
-## References
+## Purpose
 
-This repository is based on the following learning resource:
+The purpose of this repository is to:
 
-- ISTQB® Certified Tester Foundation Level (CTFL) Syllabus v4.0.1 :contentReference[oaicite:1]{index=1}
+- Organise my software testing notes
+- Strengthen my understanding of testing fundamentals
+- Create a quick revision resource
+- Prepare for QA interviews
+- Document what I learned during the first stage of my internship
 
-All explanations, summaries, examples, and notes in this repository have been written independently for educational purposes.
+---
+
+## Reference
+
+The notes are based on:
+
+- ISTQB® Certified Tester Foundation Level Syllabus v4.0.1
+
+All summaries and explanations have been written in my own words for educational purposes.
 
 ---
 
 ## Disclaimer
 
-This repository is an independent learning project created during my internship. It is not affiliated with or endorsed by ISTQB® and should not be considered a substitute for the official syllabus or certification.
+ISTQB® is a registered trademark of the International Software Testing Qualifications Board.
+
+This is an independent learning repository and is not affiliated with, endorsed by, or an official publication of ISTQB®.
 
 ---
 
@@ -158,8 +120,7 @@ This repository is an independent learning project created during my internship.
 
 **Zaina Rehman**
 
-Electrical Engineering (Computer Engineering)
+Electrical Engineering  
+Computer Engineering Specialisation
 
-QA Engineering Intern
-
-GitHub: https://github.com/zaina04
+[GitHub Profile](https://github.com/zaina04)
