@@ -43,7 +43,7 @@ The objectives of testing include:
 | Usually performed by testers | Usually performed by developers |
 | Focuses on identifying failures | Focuses on correcting defects |
 
-...
+
 
 ## Chapter Summary
 
